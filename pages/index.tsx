@@ -1,6 +1,8 @@
-const IndexPage = () => (
+import React, { ReactChild } from 'react'
+
+const IndexPage = (): ReactChild => (
   <div title="Home | Next.js + TypeScript Example">
-    <h1>Hello Next.js 👋</h1>
+    <h1>Hello Next.js</h1>
   </div>
 )
 
